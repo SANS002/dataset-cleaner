@@ -107,7 +107,7 @@ def evaluate_data_quality(df):
     return quality_score
 
 # Streamlit UI
-st.title('Enhanced Data Cleaning Tool')
+st.title('Data Cleaning Tool')
 
 uploaded_file = st.file_uploader("Upload your dataset", type=["csv", "xlsx"])
 
